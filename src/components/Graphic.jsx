@@ -6,7 +6,7 @@ export const Graphic = ({ title, url }) => {
     <>
     <div>
         <img src={url} alt={title}/>
-        <p>{ title }</p>       
+        <p className="lblTitle">{ title }</p>       
     </div>
     </>
   );

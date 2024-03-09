@@ -29,7 +29,7 @@ export const GifProcessor = ({ setProcessValue }) => {
             <input className="search" type='text' placeholder='Buscar...' value={search}
                 onChange={handleSearchChange}
             />
-            <button className=".warnings" type="submit">Consultar</button>
+            <button className="Button" type="submit">Consultar</button>
         </form>
         { warnings ? <p className='warnings'>Ingresa algún dato</p> :""}
     </>
